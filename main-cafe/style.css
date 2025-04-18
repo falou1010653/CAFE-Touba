@@ -11,6 +11,7 @@
 
 body {
     margin: auto;
+    background-color: #aa7d39;
     
 }
 
@@ -38,11 +39,14 @@ nav {
     color: white;
     font-size: 26px;
     font-weight: bold;
+    border-radius: 5px;
+    
 }
 .logo img {
     height: 130px; /* Ajustez la taille du logo */
     width: auto;
     transition: transform 0.3s ease;
+    border: 1px solid;
 }
 
 .logo img:hover {
@@ -59,6 +63,7 @@ nav ul li {
     margin: 0 15px;
     border:  1px solid;
     color: white;
+    border-radius: 5px;
 }
 
 nav ul li a {
@@ -151,6 +156,8 @@ nav ul li a:hover {
         align-items: center;
         border-radius: 30%;
         width: 150vh;
+        
+        
 }
     
 
@@ -161,11 +168,15 @@ nav ul li a:hover {
     object-fit: cover;
     border-radius: 5px;
     align-items: center;  
+    text-decoration:underline;
 }
 
 .produit h3 {
     font-size: 22px;
     margin: 10px 0;
+    border:  1px solid;
+    border-radius: 5px;
+
 }
 
 .produit p {
@@ -184,7 +195,7 @@ nav ul li a:hover {
 #contact {
     text-align: center;
     padding: 40px;
-    background: #222;
+    background:#aa7d39;
     color: white;
 }
 
