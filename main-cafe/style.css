@@ -45,8 +45,8 @@ nav {
     height: 130px; /* Ajustez la taille du logo */
     width: auto;
     transition: transform 0.3s ease;
-    border: 1px solid;
-    border-radius: 5px;
+    /*border: 1px solid;*/
+    border-radius: 50%;
 }
 
 .logo img:hover {
@@ -61,7 +61,7 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
-    border:  1px solid;
+   /*border:  1px solid;*/
     color: white;
     border-radius: 5px;
 }
@@ -101,16 +101,28 @@ nav ul li a:hover {
 .content {
     position: relative;
     z-index: 1;
+    margin-top: 100px;
 }
 
 .content h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 80px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 1.0834933333;
 }
 
 .content p {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 20px;
-    margin-bottom: 20px;
+    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    padding-bottom: 8px;
+
 }
 
 .btn {
@@ -122,6 +134,7 @@ nav ul li a:hover {
     font-size: 18px;
     border-radius: 5px;
     transition: 0.3s;
+    margin-top: 80px;
 }
 
 .btn:hover {
@@ -133,6 +146,11 @@ nav ul li a:hover {
     text-align: center;
     padding: 80px 20px;
     background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 
 .catalogue h2 {
@@ -152,10 +170,11 @@ nav ul li a:hover {
     
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: space-between; /* ou center */
         align-items: center;
         border-radius: 30%;
-        width: 150vh;
+       width: 500px;
         
         
 }
